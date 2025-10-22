@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  # source_URL: C:\Users\Jawad Z\Desktop\Chicken_Diesease_Prediction\chicken_fascal_images.zip  # Path to folder with images
+  source_URL: file:///C:/Users/Jawad%20Z/Desktop/Chicken_Diesease_Prediction/chicken_fascal_images.zip
+  local_data_file: artifacts/data_ingestion/data.zip  # This won't be used anymore, but keep for config compatibility
+  unzip_dir: artifacts/data_ingestion
