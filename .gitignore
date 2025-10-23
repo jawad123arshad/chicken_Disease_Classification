@@ -207,3 +207,12 @@ marimo/_lsp/
 __marimo__/
 
 artifacrst/*
+
+
+# Other ML junk
+__pycache__/
+*.h5
+*.keras
+*.log
+env/
+chicken/
